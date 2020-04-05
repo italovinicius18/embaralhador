@@ -1,3 +1,26 @@
 body {
     background-color: green;
 }
+
+.botoes {
+    background-color: #44c767;
+    border-radius: 8px;
+    border: 5px solid #30ff45;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Courier New;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 4px 12px;
+    text-decoration: none;
+}
+
+.botoes:hover {
+    background-color: #59ff00;
+}
+
+.botoes:active {
+    position: relative;
+    top: 1px;
+}
